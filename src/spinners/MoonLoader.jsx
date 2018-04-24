@@ -18,8 +18,8 @@ class Loader extends React.Component {
 
   wrapper = () => css`{
         position: relative;
-        width: ${(this.props.size + this.moonSize() * 2).toString() + this.props.sizeUnit};
-        height: ${(this.props.size + this.moonSize() * 2).toString() + this.props.sizeUnit};
+        width: ${(this.props.size).toString() + this.props.sizeUnit};
+        height: ${(this.props.size).toString() + this.props.sizeUnit};
         animation: ${moon} 0.6s 0s infinite linear;
         animation-fill-mode: forwards;
 
